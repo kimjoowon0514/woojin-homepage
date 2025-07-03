@@ -1,83 +1,61 @@
+
 <!DOCTYPE html>
 <html lang="ko">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>우진정밀 | CNC 정밀가공</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>우진정밀 - 정밀 CNC 가공</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <header>
-    <div class="nav-container">
-      <h1>우진정밀</h1>
-      <nav>
-        <ul>
-          <li><a href="#about">회사소개</a></li>
-          <li><a href="#equipment">장비소개</a></li>
-          <li><a href="#gallery">갤러리</a></li>
-          <li><a href="#contact">문의하기</a></li>
-        </ul>
-      </nav>
-    </div>
+    <h1>우진정밀</h1>
+    <nav>
+      <ul>
+        <li><a href="#about">회사소개</a></li>
+        <li><a href="#services">가공서비스</a></li>
+        <li><a href="#portfolio">포트폴리오</a></li>
+        <li><a href="#contact">문의하기</a></li>
+      </ul>
+    </nav>
   </header>
-
-  <section class="hero">
-    <h2>정밀함을 가공하다, 우진정밀</h2>
-    <p>선반 · 밀링 · CNC 정밀 가공 전문</p>
+  <section id="hero">
+    <h2>정밀 선반 · 밀링 가공 전문업체</h2>
+    <p>다년간의 노하우와 최신 설비로 최고의 품질을 약속드립니다.</p>
   </section>
-
   <section id="about">
     <h2>회사소개</h2>
-    <p>
-      우진정밀은 정밀한 가공 기술과 오랜 노하우를 바탕으로
-      고객의 요구에 맞는 고품질 부품을 생산하는 CNC 가공 전문 업체입니다.<br/>
-      10년 이상의 축적된 기술력을 바탕으로 선반, 밀링 등 다양한 공정에 대응합니다.
-    </p>
+    <p>우진정밀은 정밀 선반, 밀링, CNC 가공을 전문으로 하는 기술 기반의 기업입니다. 고객 맞춤형 부품 가공부터 대량 생산까지 믿고 맡기실 수 있습니다.</p>
+  </section>
+  <section id="services">
+    <h2>가공 서비스</h2>
     <ul>
-      <li>설립: 2017년</li>
-      <li>위치: 인천광역시 중구</li>
-      <li>주요 업종: 정밀기계 가공 / 금속부품 제작</li>
+      <li>선반 가공 (Turning)</li>
+      <li>밀링 가공 (Milling)</li>
+      <li>정밀 부품 제작</li>
     </ul>
   </section>
-
-  <section id="equipment">
-    <h2>장비 및 기술력</h2>
-    <p>
-      우진정밀은 다양한 CNC 장비를 보유하고 있으며,
-      ±0.01mm 정밀도를 자랑하는 고급 가공 서비스를 제공합니다.
-    </p>
-    <ul>
-      <li>TAKISAWA 선반 2대</li>
-      <li>CNC 밀링기 3대</li>
-      <li>소형 부품 정밀 가공기</li>
-      <li>황동, 알루미늄, SUS 등 다양한 재질 가공 가능</li>
-    </ul>
+  <section id="portfolio">
+    <h2>포트폴리오</h2>
+    <div class="gallery">
+      <img src="gallery1.jpg" alt="가공 부품 1">
+      <img src="gallery2.jpg" alt="가공 부품 2">
+      <img src="gallery3.jpg" alt="가공 부품 3">
+    </div>
   </section>
-
-  <section id="gallery">
-    <h2>포트폴리오 갤러리</h2>
-    <p>※ 가공 샘플 사진이 준비되면 이곳에 업로드될 예정입니다.</p>
-    <div class="gallery-placeholder">[ 갤러리 영역 ]</div>
-  </section>
-
   <section id="contact">
     <h2>문의하기</h2>
-    <form id="contactForm">
-      <input type="text" name="name" placeholder="성함" required />
-      <input type="email" name="email" placeholder="이메일" required />
-      <input type="text" name="phone" placeholder="연락처" />
-      <textarea name="message" placeholder="문의 내용을 입력해주세요" required></textarea>
-      <input type="file" name="attachment" />
+    <form>
+      <input type="text" placeholder="이름" required />
+      <input type="email" placeholder="이메일" required />
+      <textarea placeholder="문의 내용" required></textarea>
       <button type="submit">보내기</button>
     </form>
-    <p id="formStatus"></p>
-    <p class="contact-info">📞 전화문의: 010-2688-4973</p>
+    <p>📞 전화문의: 010-2688-4973</p>
   </section>
-
   <footer>
     <p>&copy; 2025 우진정밀. All rights reserved.</p>
   </footer>
-
   <script src="script.js"></script>
 </body>
 </html>
