@@ -2,64 +2,89 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>우진정밀 - CNC 정밀가공</title>
-    <link rel="stylesheet" href="style.css" />
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>우진정밀 | CNC 정밀가공</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet" />
 </head>
 <body>
-    <header>
-        <h1>⚙️ 우진정밀</h1>
-        <p>선반 · 밀링 · 정밀가공 전문 기업</p>
-    </header>
+  <header>
+    <div class="container">
+      <h1>⚙ 우진정밀</h1>
+      <p>정밀함을 추구하는 CNC 가공 전문기업</p>
+      <nav>
+        <a href="#about">회사소개</a>
+        <a href="#services">서비스</a>
+        <a href="#equipment">보유설비</a>
+        <a href="#portfolio">포트폴리오</a>
+        <a href="#contact">문의하기</a>
+      </nav>
+    </div>
+  </header>
 
-    <section class="hero">
-        <img src="product1.jpg" alt="대표 제품 사진" class="featured">
-    </section>
+  <section class="hero">
+    <div class="container">
+      <h2>정밀 기술과 신뢰의 가치를 제공합니다</h2>
+      <p>우진정밀은 다양한 산업 분야에 최적화된 정밀 가공 솔루션을 제공합니다.</p>
+    </div>
+  </section>
 
-    <section class="about">
-        <h2>회사소개</h2>
-        <p>우진정밀은 정밀한 기술력으로 고객의 요구를 만족시키는 CNC 가공 전문 업체입니다.</p>
-    </section>
+  <section id="about" class="section">
+    <div class="container">
+      <h2>회사소개</h2>
+      <p>우진정밀은 풍부한 경험과 기술력을 바탕으로, 정밀도와 품질을 최우선으로 하는 CNC 가공 전문업체입니다. 소량 정밀 부품 가공부터 다양한 고객 맞춤형 생산까지 폭넓게 대응하고 있습니다.</p>
+    </div>
+  </section>
 
-    <section class="services">
-        <h2>주요 서비스</h2>
-        <ul>
-            <li>선반 가공</li>
-            <li>밀링 가공</li>
-            <li>정밀 기계부품 가공</li>
-        </ul>
-    </section>
+  <section id="services" class="section dark">
+    <div class="container">
+      <h2>주요 서비스</h2>
+      <ul>
+        <li>선반 가공 (Turning)</li>
+        <li>밀링 가공 (Milling)</li>
+        <li>정밀 부품 가공 및 조립</li>
+        <li>시제품 제작</li>
+        <li>도면 기반 맞춤형 가공</li>
+      </ul>
+    </div>
+  </section>
 
-    <section class="gallery">
-        <h2>제품 갤러리</h2>
-        <div class="images">
-            <img src="product1.jpg" alt="제품1" />
-            <img src="product2.jpg" alt="제품2" />
-            <img src="product3.jpg" alt="제품3" />
-            <img src="product4.jpg" alt="제품4" />
-            <img src="product5.jpg" alt="제품5" />
-            <img src="product6.jpg" alt="제품6" />
-            <img src="product7.jpg" alt="제품7" />
-            <img src="product8.jpg" alt="제품8" />
-            <img src="product9.jpg" alt="제품9" />
-        </div>
-    </section>
+  <section id="equipment" class="section">
+    <div class="container">
+      <h2>보유 설비</h2>
+      <p>※ 설비 사진과 상세 설명은 추후 추가될 예정입니다.</p>
+    </div>
+  </section>
 
-    <section class="contact">
-        <h2>문의하기</h2>
-        <form>
-            <input type="text" placeholder="이름" required />
-            <input type="email" placeholder="이메일" required />
-            <textarea placeholder="문의 내용" required></textarea>
-            <button type="submit">보내기</button>
-        </form>
-        <p>📞 연락처: 010-2688-4973</p>
-    </section>
+  <section id="portfolio" class="section dark">
+    <div class="container">
+      <h2>포트폴리오</h2>
+      <div class="gallery">
+        <img src="product1.jpg" alt="제품1" />
+        <img src="product2.jpg" alt="제품2" />
+        <img src="product3.jpg" alt="제품3" />
+      </div>
+    </div>
+  </section>
 
-    <footer>
-        <p>&copy; 2025 우진정밀. All rights reserved.</p>
-    </footer>
+  <section id="contact" class="section">
+    <div class="container">
+      <h2>문의하기</h2>
+      <form>
+        <input type="text" placeholder="이름" required />
+        <input type="email" placeholder="이메일" required />
+        <textarea placeholder="문의 내용을 입력해주세요" required></textarea>
+        <button type="submit">보내기</button>
+      </form>
+      <p class="phone">📞 010-2688-4973</p>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 우진정밀. All rights reserved.</p>
+    </div>
+  </footer>
 </body>
 </html>
