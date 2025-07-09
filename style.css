@@ -34,9 +34,11 @@ nav a {
   text-decoration: none;
 }
 .hero {
-  background: linear-gradient(to right, #222, #000);
+  background: url('product1.jpg') center/cover no-repeat;
   padding: 3rem 0;
   text-align: center;
+  color: #fff;
+  text-shadow: 0 0 10px #000;
 }
 .hero h2 {
   font-size: 2rem;
@@ -45,8 +47,17 @@ nav a {
 .section {
   padding: 3rem 0;
 }
-.section.dark {
-  background-color: #1a1a1a;
+#services {
+  background: url('product2.jpg') center/cover no-repeat;
+  background-attachment: fixed;
+  color: #fff;
+  text-shadow: 0 0 10px #000;
+}
+#portfolio {
+  background: url('product3.jpg') center/cover no-repeat;
+  background-attachment: fixed;
+  color: #fff;
+  text-shadow: 0 0 10px #000;
 }
 h2 {
   border-left: 5px solid #00ffc8;
